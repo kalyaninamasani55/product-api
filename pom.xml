@@ -14,7 +14,6 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.4.0-20220622</app.runtime>
 		<mule.maven.plugin.version>3.6.3</mule.maven.plugin.version>
 	</properties>
@@ -36,11 +35,10 @@
 								<workers>1</workers>
 								<workerType>MICRO</workerType>
 								<properties>
-									<http.port>8082</http.port>
 									<env>dev</env>
 									<api.id>18054924</api.id>
-									<anypoint.platform.client_id>${anypoint.platform.client_i}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>5c46a52239234a4295d62b268f1660c1</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>3174D64e461446D9B897f54F7E1CE1Ad</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
@@ -66,11 +64,10 @@
 								<workers>1</workers>
 								<workerType>MICRO</workerType>
 								<properties>
-									<http.port>8082</http.port>
 									<env>test</env>
 									<api.id>18054925</api.id>
-									<anypoint.platform.client_id>${anypoint.platform.client_i}</anypoint.platform.client_id>
-									<anypoint.platform.client_secret>${anypoint.platform.client_secret}</anypoint.platform.client_secret>
+									<anypoint.platform.client_id>8920048fa8fe43c586320ea304df2367</anypoint.platform.client_id>
+									<anypoint.platform.client_secret>c5350b3A5D3640Aa8dBC56a663a16Fab</anypoint.platform.client_secret>
 								</properties>
 							</cloudHubDeployment>
 						</configuration>
@@ -97,8 +94,8 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.4.0</muleVersion>
-						<username>${username}</username>
-						<password>${password}</password>
+						<username>Himanth</username>
+						<password>H!manth5</password>
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<http.port>8082</http.port>
